@@ -1,0 +1,30 @@
+<div class="navbar">
+  <a routerLink="/home">
+    <img src="assets/img/Logo.jpg" class="logo">
+  </a>
+
+  <input #toggler type="checkbox" id="toggler" class="toggler" />
+  <div (click)="closeSidebar()" class="page-mask">
+  </div>
+  <nav>
+    <ul (click)="closeSidebar()">
+      <li><a routerLink="/teraputer" routerLinkActive="active">Våra teraputer</a></li>
+      <li><a routerLink="/behandlingar" routerLinkActive="active">Behandlingar</a></li>
+      <li><a routerLink="/produkter" routerLinkActive="active">Produkter</a></li>
+      <li><a routerLink="/kontakt" routerLinkActive="active">Kontakt</a></li>
+      <div class="book-btn-container"><a routerLink="/boka" class="book-btn">Boka tid</a></div>
+    </ul>
+
+  </nav>
+
+  <label for="toggler" class="hamburger">
+    <div class="top-line"></div>
+    <div class="mid-line"></div>
+    <div class="bottom-line"></div>
+  </label>
+
+</div>
+<div class="content">
+  <ng-content></ng-content>
+
+</div>

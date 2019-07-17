@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+$primary: purple;
+
+@import '~bootstrap/scss/bootstrap.scss';
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+$navbar-height: 5rem;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: rgba(246, 255, 232, 0.8);
+	font-family: sans-serif;
+}

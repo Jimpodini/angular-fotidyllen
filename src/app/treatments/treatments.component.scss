@@ -1,0 +1,35 @@
+.content {
+	grid-template-columns: 1fr;
+}
+
+.treatment {
+	padding: 0;
+	text-align: center;
+	margin-bottom: 3rem;
+}
+strong {
+	display: block;
+	font-weight: bold;
+}
+
+img {
+	width: 100%;
+	max-width: 300px;
+	border-radius: 10px;
+	margin: 1rem 0rem;
+}
+
+figure {
+	display: block;
+	text-align: center;
+}
+
+@media screen and (min-width: 739px) {
+	img {
+		margin: 1rem 1rem;
+	}
+
+	figure {
+		display: inline-block;
+	}
+}
