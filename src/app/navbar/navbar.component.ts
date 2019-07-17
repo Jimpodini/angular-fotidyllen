@@ -1,5 +1,4 @@
 import { Component, ViewChild, ViewChildren } from '@angular/core';
-import { link, linkSync } from 'fs';
 
 @Component({
 	selector: 'app-navbar',
