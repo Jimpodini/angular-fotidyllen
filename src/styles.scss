@@ -14,14 +14,5 @@ $navbar-height: 5rem;
 
 body {
 	background: rgba(246, 255, 232, 0.8);
-	background-image: linear-gradient(130deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8));
 	font-family: sans-serif;
-}
-
-.content {
-	padding: 8rem 2rem 4rem 2rem;
-	display: grid;
-	justify-items: center;
-	align-items: center;
-	grid-template-columns: 1fr;
 }

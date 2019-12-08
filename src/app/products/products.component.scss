@@ -1,23 +1,9 @@
-.products {
-	display: grid;
+.content {
 	grid-gap: 2rem;
-	grid-template-columns: 1fr;
-	align-items: center;
-	justify-items: center;
 }
 
 img {
 	width: 100%;
 	border-radius: 10px;
 	max-width: 600px;
-}
-
-@media screen and (min-width: 877px) {
-	.products {
-		display: grid;
-		grid-gap: 2rem;
-		grid-template-columns: 1fr 1fr;
-		align-items: center;
-		justify-items: center;
-	}
 }

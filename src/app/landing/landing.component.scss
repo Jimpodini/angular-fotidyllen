@@ -5,10 +5,7 @@
 	}
 }
 
-.grid {
-	display: grid;
-	align-items: center;
-	justify-items: center;
+.content {
 	grid-template-columns: 1fr;
 }
 
@@ -24,7 +21,7 @@ strong {
 }
 
 @media screen and (min-width: 678px) {
-	.grid {
+	.content {
 		grid-template-columns: 1fr 1fr;
 	}
 }

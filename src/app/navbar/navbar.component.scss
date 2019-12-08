@@ -5,11 +5,11 @@ $hamburger-width: 2rem;
 $hamburger-height: 30px;
 $hamburger-line-margin: 4px;
 
-// * {
-// 	margin: 0;
-// 	padding: 0;
-// 	box-sizing: border-box;
-// }
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
 body {
 	background: rgba(246, 255, 232, 0.8);
@@ -23,7 +23,7 @@ body {
 	z-index: -1000;
 }
 
-.my-navbar {
+.navbar {
 	width: 100%;
 	height: $navbar-height;
 	background: white;
@@ -38,7 +38,6 @@ body {
 .hamburger {
 	z-index: 30;
 	margin-right: 2rem;
-	margin-bottom: 0;
 	display: flex;
 	justify-content: center;
 	height: $hamburger-height;
@@ -92,7 +91,7 @@ body {
 	transform-origin: 50% 50%;
 }
 
-.my-navbar nav {
+.navbar nav {
 	position: absolute;
 	z-index: -1;
 	top: 0;
@@ -121,12 +120,12 @@ body {
 	bottom: 0;
 }
 
-.my-navbar nav ul {
+.navbar nav ul {
 	margin-top: $navbar-height;
 	list-style: none;
 }
 
-.my-navbar nav ul li {
+.navbar nav ul li {
 	padding: 0.5rem 2.5rem;
 }
 
@@ -167,21 +166,21 @@ li a:hover {
 		display: none;
 	}
 
-	.my-navbar nav {
+	.navbar nav {
 		all: unset;
 	}
 
-	.my-navbar nav ul li {
+	.navbar nav ul li {
 		display: inline-block;
 		padding: 0 1rem;
 	}
 
-	.my-navbar div {
+	.navbar div {
 		display: inline-block;
 	}
 
-	.my-navbar nav ul {
-		margin: 0;
+	.navbar nav ul {
+		margin-top: 0;
 	}
 
 	.book-btn-container {
