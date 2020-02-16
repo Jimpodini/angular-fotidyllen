@@ -1,9 +1,12 @@
 .content {
-	grid-gap: 2rem;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 2rem;
 }
 
 img {
-	width: 100%;
-	border-radius: 10px;
-	max-width: 600px;
+  width: 100%;
+  border-radius: 10px;
+  max-width: 600px;
 }

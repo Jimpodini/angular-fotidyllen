@@ -1,10 +1,10 @@
-.content {
-	grid-template-columns: 1fr;
-	row-gap: 2fr;
+.therapists-area {
+  grid-template-columns: 1fr;
+  row-gap: 2fr;
 }
 
 @media screen and (min-width: 772px) {
-	.content {
-		grid-template-columns: 1fr 1fr;
-	}
+  .therapists-area {
+    grid-template-columns: 1fr 1fr;
+  }
 }
