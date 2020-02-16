@@ -12,11 +12,13 @@ import { TreatmentsComponent } from "./treatments/treatments.component";
 import { ProductsComponent } from "./products/products.component";
 import { ContactsComponent } from "./contacts/contacts.component";
 import { BookingComponent } from "./booking/booking.component";
+import { GiftCardComponent } from "./gift-card/gift-card.component";
 
 const appRoutes: Routes = [
   { path: "home", component: LandingComponent },
   { path: "teraputer", component: TherapistsComponent },
   { path: "behandlingar", component: TreatmentsComponent },
+  { path: "presentkort", component: GiftCardComponent },
   { path: "produkter", component: ProductsComponent },
   { path: "kontakt", component: ContactsComponent },
   { path: "boka", component: BookingComponent },
@@ -33,7 +35,8 @@ const appRoutes: Routes = [
     TreatmentsComponent,
     ProductsComponent,
     ContactsComponent,
-    BookingComponent
+    BookingComponent,
+    GiftCardComponent
   ],
   imports: [BrowserModule, RouterModule.forRoot(appRoutes)],
   providers: [],
